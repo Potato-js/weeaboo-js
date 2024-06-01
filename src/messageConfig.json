@@ -10,5 +10,6 @@
     "commandPremiumOnly": "⚠ | This command can only be executed by premium users.",
   
     "userNoPermissions": "❗ | You do not have enough permissions to execute this command.",
-    "botNoPermissions": "❗ | I do not have enough permissions to execute this command."
-  }
+    "botNoPermissions": "❗ | I do not have enough permissions to execute this command.",
+    "copyrightString": "© 2024 weeaboo"
+}
