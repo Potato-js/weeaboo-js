@@ -7,7 +7,11 @@ WORKDIR /usr/src/bot
 COPY package.json /usr/src/bot
 RUN npm install
 
+COPY .env /usr/src/bot/.env
+
 COPY . /usr/src/bot
 
+RUN npm install dotenv
+
 # Start the bot.
-CMD ["nodemon", "index.js"]
+CMD ["node", "src/index.js"]

@@ -8,7 +8,7 @@ module.exports = (client) => {
     const eventFiles = getAllFiles(eventFolder);
     let eventName;
 
-    eventName = eventFolder.replace(/\\/g, "/").split("/").pop(); // remove the .replace line if on a macbook
+    eventName = eventFolder.replace(/\\/g, "/").split("/").pop(); // remove the .replace line if on a macbook/linux machine
 
     eventName === "validations" ? (eventName = "interactionCreate") : eventName;
 
